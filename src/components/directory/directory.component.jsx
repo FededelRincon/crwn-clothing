@@ -41,6 +41,27 @@ class Directory extends React.Component {
                   size: 'large',
                   id: 5,
                   linkUrl: 'shop/mens'
+                },
+                // agrego de aca para abjo para tener 3 "elementos" mas, en un esquema 3-2-3, 
+                //si lo tengo q quitar, sacar tamb en "menu-item.styles.scss" el width de 280.
+                {
+                  title: 'watches',
+                  imageUrl: 'https://laopinion.com/wp-content/uploads/sites/3/2019/07/717io1r5hjl._ux679_-e1564533503631.jpg?quality=80&strip=all&w=679',
+                  id: 7,
+                  linkUrl: 'shop/watches'
+                },
+                {
+                  title: 'glasses',
+                  imageUrl: 'https://i.pinimg.com/736x/fa/5d/a2/fa5da216c1e0458f82b8c2ee39698160.jpg',
+                  //size: 'large',
+                  id: 6,
+                  linkUrl: 'shop/glasses'
+                },
+                {
+                  title: 'accesories',
+                  imageUrl: 'https://i.pinimg.com/236x/30/4e/21/304e21a0a8ccd7cae5472c9843ace06d.jpg',
+                  id: 8,
+                  linkUrl: 'shop/mens'
                 }
               ]
         }
