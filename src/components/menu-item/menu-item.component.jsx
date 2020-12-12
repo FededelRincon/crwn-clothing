@@ -1,10 +1,15 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
+
 
 import './menu-item.styles.scss';
 
 //podria usar (props), pero uso ({title}) porque lo destructuro
-const MenuItem = ({ title, imageUrl, size }) => (  //si tiene el size lo usa, sino no pasa nada
-    <div className={`${size} menu-item`}>
+const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (  //si tiene el size lo usa, sino no pasa nada
+    <div 
+        className={`${size} menu-item`} 
+        onClick={() => history.push(`${match.url}${linkUrl}`)}
+    >
         <div 
             className='background-image' 
             style={{
@@ -18,4 +23,4 @@ const MenuItem = ({ title, imageUrl, size }) => (  //si tiene el size lo usa, si
     </div>
 );
 
-export default MenuItem;
+export default withRouter(MenuItem);
