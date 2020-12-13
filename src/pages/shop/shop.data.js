@@ -302,7 +302,7 @@ const SHOP_DATA = [
         },
         {
           id: 38,
-          name: 'U.S. Polo, cuarzo y metal',
+          name: 'U.S. Polo',
           imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/91Ge0E3EeLL._UY679_.jpg',
           // imageUrl: "/images/shop-img/watches/U.S. Polo.jpg",
           price: 19.99
