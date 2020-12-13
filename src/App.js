@@ -11,7 +11,7 @@ function App() {
   return ( // con swith usa solo el primer renglon de los routes. Y en este caso si no pongo el exact siempre entra al perimero, osea el /, y los otros ni los mira
     <div>  
       <Switch>  
-        <Route exact path='/' component={ HomePage } />
+        <Route exact path='/' component={ HomePage } />  
         <Route path='/shop' component={ ShopPage } />
       </Switch>
     </div>
