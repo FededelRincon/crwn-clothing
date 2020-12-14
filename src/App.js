@@ -8,20 +8,44 @@ import ShopPage from './pages/shop/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
+import { auth } from './firebase/firebase.utils';
 
+class App extends React.Component {
+  constructor(){
+    super();
 
-function App() {
-  return ( // con swith usa solo el primer renglon de los routes. Y en este caso si no pongo el exact siempre entra al perimero, osea el /, y los otros ni los mira
-    <div>  
-      <Header />
-      <Switch>  
-        <Route exact path='/' component={ HomePage } />  
-        <Route path='/shop' component={ ShopPage } />
-        <Route path='/signin' component={ SignInAndSignUpPage } />
-      </Switch>
-      <Footer />
-    </div>
-  );
+    this.state = {
+      currentUser: null
+    }
+  }
+
+  unsubscribeFromAuth = null;
+
+  componentDidMonunt() {
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
+      this.setState({ currentUser: user });
+
+      console.log(user);
+    })
+  }
+
+  componentWillUnmount() {
+    this.unsubscribeFromAuth();
+  }
+
+  render(){
+    return (
+      <div>  
+        <Header />
+        <Switch>  
+          <Route exact path='/' component={ HomePage } />  
+          <Route path='/shop' component={ ShopPage } />
+          <Route path='/signin' component={ SignInAndSignUpPage } />
+        </Switch>
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
