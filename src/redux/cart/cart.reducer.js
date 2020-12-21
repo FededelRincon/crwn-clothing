@@ -1,20 +1,25 @@
-import CartActoinTypes from './cart.types';
+import CartActionTypes from './cart.types';
 
 const INITIAL_STATE = {
-    hidden: true
+  hidden: true,
+  cartItems: []
 };
-//toma un state, (que esta en los parentesis), y retorna un state(o xq entra en switch o porque va a default)
-                    //si este state viene nulo, lo setea, pero si trae algo lo deja como viene
+
 const cartReducer = (state = INITIAL_STATE, action) => {
-    switch(action.type) {
-        case CartActoinTypes.TOGGLE_CART_HIDDEN:
-        return { //esto se hace de esta forma "lo que trae + algo nuevo, sino react no renderiza de nuevo"
-            ...state, //lo que trae
-            hidden: !state.hidden //mas lo nuevo que agrega
-        }
-        default:
-            return state;
-    }
+  switch (action.type) {
+    case CartActionTypes.TOGGLE_CART_HIDDEN:
+      return {
+        ...state,
+        hidden: !state.hidden
+      };
+    case CartActionTypes.ADD_ITEM:
+      return {
+        ...state,
+        cartItems: [...state.cartItems, action.payload]
+      };
+    default:
+      return state;
+  }
 };
 
 export default cartReducer;
