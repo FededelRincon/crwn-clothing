@@ -37,9 +37,16 @@ const Header = ({ currentUser, hidden }) => (
   </div>
 );
 
+//mapStateToProps el state es el root reducer. (el state es reemplazado por user y cart, es lo q va antes de la flecha)
 const mapStateToProps = ({user: { currentUser}, cart: {hidden }}) => ({
   currentUser,
   hidden
 });
+
+//  otra forma de escribir lo mismo de arriba es
+// const mapStateToProps = state => ({
+//   currentUser: state.user.currentUser
+// });
+
 
 export default connect(mapStateToProps)(Header);
