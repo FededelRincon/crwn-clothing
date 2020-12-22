@@ -46,7 +46,7 @@ class Directory extends React.Component {
                 //si lo tengo q quitar, sacar tamb en "menu-item.styles.scss" el width de 280.
                 {
                   title: 'watches',
-                  imageUrl: 'https://laopinion.com/wp-content/uploads/sites/3/2019/07/717io1r5hjl._ux679_-e1564533503631.jpg?quality=80&strip=all&w=679',
+                  imageUrl: 'https://k8q7r7a2.stackpathcdn.com/wp-content/uploads/2018/10/AnOrdain-Model-1-Enamel-Dial-4.jpg',
                   id: 7,
                   linkUrl: 'shop/watches'
                 },
