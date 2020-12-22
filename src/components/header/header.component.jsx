@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
 
 import { auth } from '../../firebase/firebase.utils';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
+import { selectCartHidden } from '../../redux/cart/cart.selectors';
+import { selectCurrentUser } from '../../redux/user/user.selectors'
 
 import { ReactComponent as Logo } from '../../assets/crown3.svg';
 
@@ -38,9 +41,9 @@ const Header = ({ currentUser, hidden }) => (
 );
 
 //mapStateToProps el state es el root reducer. (el state es reemplazado por user y cart, es lo q va antes de la flecha)
-const mapStateToProps = ({user: { currentUser}, cart: {hidden }}) => ({
-  currentUser,
-  hidden
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser,
+  hidden: selectCartHidden
 });
 
 //  otra forma de escribir lo mismo de arriba es
