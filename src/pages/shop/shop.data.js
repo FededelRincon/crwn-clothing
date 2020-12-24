@@ -291,49 +291,49 @@ const SHOP_DATA = [
         name: 'Olevs Mens Minimalist',
         imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/61XwC26jdiL._UX679_.jpg',
         // imageUrl: "/images/shop-img/watches/OLEVS Mens Minimalist.jpg",
-        price: 29.99
+        price: 30
       },
       {
         id: 37,
         name: 'Golden Hour Sport',
         imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71BmU7leKuL._UX679_.jpg',
         // imageUrl: "/images/shop-img/watches/Golden Hour Sport.jpg",
-        price: 29.99
+        price: 30
       },
       {
         id: 38,
         name: 'U.S. Polo',
         imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/91Ge0E3EeLL._UY679_.jpg',
         // imageUrl: "/images/shop-img/watches/U.S. Polo.jpg",
-        price: 19.99
+        price: 20
       },
       {
         id: 39,
         name: 'Fossil men casual',
         imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/81524nArHxL._UX679_.jpg',
         // imageUrl: "/images/shop-img/watches/Fossil men casual.jpg",
-        price: 68.90
+        price: 69
       },
       {
         id: 40,
         name: 'Burei Fashion',
         imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71XXnINl6wL._UX679_.jpg',
         // imageUrl: "/images/shop-img/watches/BUREI Fashion.jpg",
-        price: 25.99
+        price: 26
       },
       {
         id: 41,
         name: 'Cuarzo Sport',
         imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/61VD2rzNhxL._UX679_.jpg',
         // imageUrl: "/images/shop-img/watches/Cuarzo Sport.jpg",
-        price: 28.96
+        price: 29
       },
       {
         id: 42,
         name: 'Timex Weekender Sport',
         imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/91B8QAQHiAL._UY741_.jpg',
         // imageUrl: "/images/shop-img/watches/Timex Weekender Sport.jpg",
-        price: 44.84
+        price: 45
       }
     ]
   },
@@ -347,56 +347,56 @@ const SHOP_DATA = [
         name: 'Kevingston Luton',
         imageUrl: 'https://dafitistaticar-a.akamaihd.net/p/kevingston-7602-731782-1-zoom.jpg',
         // imageUrl: "/images/shop-img/glasses/Kevingston Luton Negro.jpg",
-        price: 39.99
+        price: 40
       },
       {
         id: 44,
         name: 'Bross London',
         imageUrl: 'https://dafitistaticar-a.akamaihd.net/p/bross-9894-854225-1-zoom.jpg',
         // imageUrl: "/images/shop-img/glasses/Bross London Negro.jpg",
-        price: 37.99
+        price: 38
       },
       {
         id: 45,
         name: 'Kevingston V135 Pink',
         imageUrl: 'https://dafitistaticar-a.akamaihd.net/p/kevingston-2091-102225-1-zoom.jpg',
         // imageUrl: "/images/shop-img/glasses/Kevingston V135 Pink.jpg",
-        price: 47.99
+        price: 48
       },
       {
         id: 46,
         name: 'Prototype Adrien',
         imageUrl: 'https://dafitistaticar-a.akamaihd.net/p/prototype-1307-370915-1-zoom.jpg',
         // imageUrl: "/images/shop-img/glasses/Prototype Adrien.jpg",
-        price: 54.99
+        price: 55
       },
       {
         id: 47,
         name: 'Kevingston Ascot',
         imageUrl: 'https://dafitistaticar-a.akamaihd.net/p/kevingston-7615-711292-1-zoom.jpg',
         // imageUrl: "/images/shop-img/glasses/Kevingston Ascot.jpg",
-        price: 48.99
+        price: 49
       },
       {
         id: 48,
         name: 'Rusty Noiz',
         imageUrl: 'https://dafitistaticar-a.akamaihd.net/p/rusty-3296-882055-1-zoom.jpg',
         // imageUrl: "/images/shop-img/glasses/Rusty Noiz.jpg",
-        price: 50.99
+        price: 50
       },
       {
         id: 49,
         name: 'Rusty Fumzer',
         imageUrl: 'https://dafitistaticar-a.akamaihd.net/p/rusty-9153-432055-1-zoom.jpg',
         // imageUrl: "/images/shop-img/glasses/Rusty Fumzer.jpg",
-        price: 47.99
+        price: 48
       },
       {
         id: 50,
         name: 'Prototype Dylan',
         imageUrl: 'https://dafitistaticar-a.akamaihd.net/p/prototype-9206-119945-1-zoom.jpg',
         // imageUrl: "/images/shop-img/glasses/Prototype Dylan.jpg",
-        price: 54.99
+        price: 55
       }
     ]
   },
@@ -410,49 +410,49 @@ const SHOP_DATA = [
         name: 'collar metallic with ring',
         imageUrl: 'https://static.zara.net/photos///2020/I/0/2/p/2621/219/808/2/w/1371/2621219808_6_1_1.jpg?ts=1605518292159',
         // imageUrl: "/images/shop-img/accesories/collar metallic with ring.jpg",
-        price: 22.99
+        price: 23
       },
       {
         id: 52,
         name: 'Engraved metal ring',
         imageUrl: 'https://static.zara.net/photos///2020/I/0/2/p/2621/213/808/2/w/1371/2621213808_6_1_1.jpg?ts=1604923506287',
         // imageUrl: "/images/shop-img/accesories/Engraved metal ring.jpg",
-        price: 17.99
+        price: 18
       },
       {
         id: 53,
         name: 'Torsion metal ring',
         imageUrl: 'https://static.zara.net/photos///2020/I/0/2/p/2621/212/808/2/w/1371/2621212808_6_1_1.jpg?ts=1604923530302',
         // imageUrl: "/images/shop-img/accesories/Torsion metal ring.jpg",
-        price: 17.99
+        price: 18
       },
       {
         id: 54,
         name: 'Link metal ring',
         imageUrl: 'https://static.zara.net/photos///2020/I/0/1/p/2621/703/937/2/w/1371/2621703937_2_1_1.jpg?ts=1595244793043',
         // imageUrl: "/images/shop-img/accesories/Link metal ring.jpg",
-        price: 19.99
+        price: 20
       },
       {
         id: 55,
         name: 'Link golden ring',
         imageUrl: 'https://static.zara.net/photos///2020/I/0/2/p/2621/711/303/2/w/1371/2621711303_1_1_1.jpg?ts=1595522367720',
         // imageUrl: "/images/shop-img/accesories/Link golden ring.jpg",
-        price: 22.99
+        price: 23
       },
       {
         id: 56,
         name: 'Open knot metal bracelet',
         imageUrl: 'https://static.zara.net/photos///2020/I/0/2/p/2621/215/808/2/w/1371/2621215808_6_1_1.jpg?ts=1604923495761',
         // imageUrl: "/images/shop-img/accesories/Open knot metal bracelet.jpg",
-        price: 22.99
+        price: 23
       },
       {
         id: 57,
         name: 'Link metal bracelet',
         imageUrl: 'https://static.zara.net/photos///2020/I/0/1/p/2621/702/937/2/w/1371/2621702937_1_1_1.jpg?ts=1595244790054',
         // imageUrl: "/images/shop-img/accesories/Link metal bracelet.jpg",
-        price: 17.99
+        price: 18
       }
     ]
   }
