@@ -1,7 +1,7 @@
 //mi propio shopping data con las 8 categorias, listas
 
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hats: {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -71,7 +71,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  sneakers: {
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -134,7 +134,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  jackets: {
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -176,7 +176,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  womens: {
     id: 4,
     title: 'Womens',
     routeName: 'womens',
@@ -232,7 +232,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  mens: {
     id: 5,
     title: 'Mens',
     routeName: 'mens',
@@ -281,7 +281,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  watches: {
     id: 6,
     title: 'Watches',
     routeName: 'watches',
@@ -337,7 +337,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  glasses: {
     id: 7,
     title: 'Glasses',
     routeName: 'glasses',
@@ -400,7 +400,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  accesories: {
     id: 8,
     title: 'Accesories',
     routeName: 'accesories',
@@ -456,6 +456,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
