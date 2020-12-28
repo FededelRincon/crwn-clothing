@@ -35,7 +35,7 @@ const CheckoutPage = ({cartItems, total, currentUser}) => (
 
 
     {currentUser ? (
-      <div>
+      <div className='test-warning'>
         <StripeCheckoutButton price={total} />
         <div className='test-warning'>
           *TEST MODE ONLY * <br />
