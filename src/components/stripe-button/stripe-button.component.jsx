@@ -7,9 +7,9 @@ const StripeCheckoutButton = ({ price }) => {
   const onToken = token => {
     console.log(token);
     alert('Payment Succesful!');
-    if (token) {
-      (<Redirect to='/' />)
-    }
+    // if (token) {
+    //   (<Redirect to='/' />)
+    // }
   };
 
   return (
